@@ -21,8 +21,11 @@ CONEXION A BD
 - Crear un archivo para cada operacion CRUD
 
   -[]Seleccionar listas.
+  
   -[]Añadir listas.
+  
   -[]Modificar listas.
+  
   -[]Borrar listas.
   
 
