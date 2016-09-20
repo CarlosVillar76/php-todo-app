@@ -7,11 +7,16 @@ Este es un proyecto para crear una aplicacion en la que se puedan crear listas d
 Pasos
 
 BASE DE DATOS
-Crear una base de datos
-Crear las tablas
-Rellenar las tablas
+
+- Crear una base de datos
+
+- Crear las tablas
+
+- Rellenar las tablas
 
 CONEXION A BD
-Crear un archivo de conexion a la base de datos
-Crear un archivo para cada operacion CRUD
+
+- Crear un archivo de conexion a la base de datos
+
+- Crear un archivo para cada operacion CRUD
 
