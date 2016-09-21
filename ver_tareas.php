@@ -4,7 +4,9 @@ require_once("conexion.php");
 
 try {
 	
-	$stmt = $dbh->prepare("SELECT * FROM listas");
+	$idLista = filter_input(INPUT_GET, 'ID_listas', FILTER_VALIDATE_INT);
+
+	$stmt = $dbh->prepare("SELECT * FROM tareas WHERE ID_listas = $idLista");
 	$stmt->execute();
 	$result = $stmt->fetchAll();
 	
