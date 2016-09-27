@@ -13,9 +13,10 @@ try {
     	echo("Variable value is not within the legal range");
 	} else {
     	echo("Variable value is within the legal range");
+    	$stmt = $dbh->prepare("UPDATE tareas SET nombre = :nombre, descripcion = :descripcion, hecho = :hecho WHERE ID = :ID");
 	}
 	
-	$stmt = $dbh->prepare("UPDATE tareas SET nombre = :nombre, descripcion = :descripcion, hecho = :hecho WHERE ID = :ID");
+	
 	
 	$stmt->bindParam(':ID', $idTarea);
 	$stmt->bindParam(':nombre', $name);
